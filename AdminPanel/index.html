@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainEarn - Admin Panel</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 20px; }
+        .header { background-color: #673ab7; color: white; padding: 15px; text-align: center; border-radius: 8px; }
+        .container { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); flex: 1; min-width: 250px; }
+        h3 { color: #673ab7; margin-top: 0; }
+        .btn { background-color: #4caf50; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; width: 100%; }
+        .btn:hover { background-color: #45a049; }
+        .status-select { width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>BrainEarn Admin Dashboard</h1>
+        <p>Manage Users, Payouts, and Ad Networks</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h3>User Coin Manager</h3>
+            <input type="text" placeholder="Enter User ID" style="width:93%; padding:8px; margin-bottom:10px; border-radius:4px; border:1px solid #ccc;"><br>
+            <input type="number" placeholder="Enter Coins Amount" style="width:93%; padding:8px; margin-bottom:10px; border-radius:4px; border:1px solid #ccc;"><br>
+            <button class="btn">Update Coins</button>
+        </div>
+        <div class="card">
+            <h3>Pending Withdrawals</h3>
+            <select class="status-select">
+                <option>Raju - PayPal ($5) - Pending</option>
+                <option>Kiran - UPI (₹400) - Pending</option>
+            </select>
+            <button class="btn" style="background-color: #2196f3; margin-bottom: 5px;">Approve Success</button>
+            <button class="btn" style="background-color: #f44336;">Mark Failed</button>
+        </div>
+        <div class="card">
+            <h3>Ad Network Controller</h3>
+            <label><input type="checkbox" checked> Google AdMob</label><br>
+            <label><input type="checkbox" checked> Unity Ads</label><br>
+            <label><input type="checkbox"> AppLovin MAX</label><br>
+            <label><input type="checkbox"> Start.io</label><br><br>
+            <button class="btn" style="background-color: #ff9800;">Save Changes</button>
+        </div>
+    </div>
+</body>
+</html>
