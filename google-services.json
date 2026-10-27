@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958473842778",
+    "project_id": "brainearn-a9a54",
+    "storage_bucket": "brainearn-a9a54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958473842778:android:461804622cbfe903d52863",
+        "android_client_info": {
+          "package_name": "com.radhakrishna.brainearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958473842778-t057c6m4nqrbrl6teidih29ub8n5lhg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYAsrjuPdlsdWudqBRV7V_FLs_Idf0RKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958473842778-t057c6m4nqrbrl6teidih29ub8n5lhg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
